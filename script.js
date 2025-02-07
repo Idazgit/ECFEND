@@ -14,14 +14,15 @@ const generateDatesDylan = (array) => {
 // on nomme les éléments du DOM
 const modal = document.querySelector(".modal");
 const modalContent = document.querySelector(".modal-content");
+
+modal.appendChild(modalContent);
 // on définit le carouselindex à 0
 let carouselIndex = 0;
 
 const generateModalContent = (players) => {
-  console.log("Avant suppression, modal-content :", modalContent.innerHTML);
   modalContent.innerHTML = "";
-  const img = document.querySelector(".carousel");
-  console.log("salut", img);
+  const img = document.createElement("img");
+  img.classList.add("carousel");
 
   img.src = players[carouselIndex];
   //bouton précédent du carousel qui enleve -1 au carouselindex
@@ -41,13 +42,13 @@ const generateModalContent = (players) => {
     img.src = players[carouselIndex];
   });
   // on append les deux boutons au modalContent
-  modalContent.append(previousButton, nextButton);
+  modalContent.append(previousButton, nextButton, img);
 };
 // on définit la fermeture du modal et stopPropa pour ne pas cliquer derrière
 const closeModal = document.querySelector(".closeModal");
-closeModal.addEventListener("click", () => {
+closeModal.addEventListener("click", (event) => {
   event.stopPropagation();
-  modal.innerHTML = "";
+  modal.style.display = "none";
 });
 
 const generateSectionDylan = (array) => {
@@ -81,7 +82,11 @@ const generateSectionDylan = (array) => {
       secondTeam.classList.add("logo");
 
       // au click on affichera le modal et carousel en fonction du match
+
       divMatch.addEventListener("click", () => {
+        console.log("Modal ouvert avec les joueurs :", match.players);
+        console.log(modal);
+
         modal.style.display = "flex";
         generateModalContent(match.players);
       });
