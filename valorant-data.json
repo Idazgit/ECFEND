@@ -1,0 +1,613 @@
+{
+  "maps": {
+    "Abyss": {
+      "name": "Abyss",
+      "image": "./img/Map/AbyssePlaceHolder.png"
+    },
+    "Lotus": {
+      "name": "Lotus",
+      "image": null
+    },
+    "Bind": {
+      "name": "Bind",
+      "image": ""
+    },
+    "Fracture": {
+      "name": "Fracture",
+      "image": null
+    },
+    "Split": {
+      "name": "Split",
+      "image": null
+    },
+    "Pearl": {
+      "name": "Pearl",
+      "image": null
+    },
+    "Haven": {
+      "name": "Haven",
+      "image": null
+    }
+  },
+  "matches": {
+    "20/01": {
+      "VCTChinaKickoff": [
+        {
+          "teams": ["Trace Esports", "EDward Gaming"],
+          "result": "2-0",
+          "maps": ["Lotus", "Bind"]
+        },
+        {
+          "teams": ["Bilibili Gaming", "FunPlus Phoenix"],
+          "result": "2-0",
+          "maps": ["Bind", "Lotus"]
+        }
+      ],
+      "VCTPacificKickoff": [
+        {
+          "teams": ["Paper Rex", "T1"],
+          "result": "1-2",
+          "maps": ["Bind", "Fracture", "Split"]
+        },
+        {
+          "teams": ["DRX", "Nongshim RedForce"],
+          "result": "2-1",
+          "maps": ["Lotus", "Pearl", "Fracture"]
+        }
+      ],
+      "VCTAmericasKickoff": [
+        {
+          "teams": ["G2 Esports", "Cloud9"],
+          "result": "2-0",
+          "maps": ["Lotus", "Abyss"]
+        }
+      ]
+    },
+    "21/01": {
+      "VCTChinaKickoff": [
+        {
+          "teams": ["JD Gaming", "XLG Esports"],
+          "result": "1-2",
+          "maps": ["Pearl", "Bind", "Haven"]
+        },
+        {
+          "teams": ["Nova Esports", "Dragon Ranger Gaming"],
+          "result": "0-2",
+          "maps": ["Pearl", "Bind"]
+        }
+      ]
+    },
+    "22/01": {
+      "regions": {
+        "VCTChinaKickoff": [
+          {
+            "teams": ["EDward Gaming", "XLG Esports"],
+            "result": "2-1",
+            "maps": ["Lotus", "Bind", "Haven"]
+          },
+          {
+            "teams": ["FunPlus Phoenix", "Dragon Ranger Gaming"],
+            "result": "1-2",
+            "maps": ["Abyss", "Pearl", "Haven"]
+          }
+        ],
+        "VCTEMEAKickoff": [
+          {
+            "teams": ["Team Heretics", "Gentle Mates"],
+            "result": "2-1",
+            "maps": ["Abyss", "Fracture", "Pearl"]
+          },
+          {
+            "teams": ["FUT Esports", "Team Liquid"],
+            "result": "2-0",
+            "maps": ["Pearl", "Fracture"]
+          }
+        ]
+      }
+    },
+    "23/01": {
+      "regions": {
+        "VCTAmericas": [
+          {
+            "teams": ["FURIA Esports", "Evil Geniuses"],
+            "result": "2-0",
+            "maps": ["Abyss", "Fracture"]
+          }
+        ],
+        "VCTEMEAKickoff": [
+          {
+            "teams": ["Natus Vincere", "Fnatic"],
+            "result": "1-2",
+            "maps": ["Pearl", "Fracture", "Haven"]
+          },
+          {
+            "teams": ["Karmine Corp", "GIANTX"],
+            "result": "1-2",
+            "maps": ["Bind", "Lotus", "Fracture"]
+          }
+        ],
+        "VCTChinaKickoff": [
+          {
+            "teams": ["Dragon Ranger Gaming", "EDward Gaming"],
+            "result": "0-2",
+            "maps": ["Haven", "Pearl"]
+          },
+          {
+            "teams": ["Bilibili Gaming", "Trace Esports"],
+            "result": "1-2",
+            "maps": ["Bind", "Haven", "Lotus"]
+          }
+        ]
+      }
+    },
+    "24/01": {
+      "regions": {
+        "VCTAmericas": [
+          {
+            "teams": ["KRÛ Esports", "2GAME Esports"],
+            "result": "2-0",
+            "maps": ["Abyss", "Split"]
+          },
+          {
+            "teams": ["Cloud9", "MIBR"],
+            "result": "1-2",
+            "maps": ["Lotus", "Abyss", "Pearl"]
+          }
+        ],
+        "VCTEMEAKickoff": [
+          {
+            "teams": ["KOI", "Gentle Mates"],
+            "result": "1-2",
+            "maps": ["Haven", "Lotus", "Pearl"]
+          },
+          {
+            "teams": ["Team Liquid", "Apeks"],
+            "result": "2-1",
+            "maps": ["Abyss", "Pearl", "Haven"]
+          }
+        ],
+        "VCTChinaKickoff": [
+          {
+            "teams": ["Bilibili Gaming", "EDward Gaming"],
+            "result": "0-3",
+            "maps": ["Pearl", "Haven", "Lotus"]
+          }
+        ]
+      }
+    },
+    "25/01": {
+      "regions": {
+        "VCTPacificKickoff": [
+          {
+            "teams": ["Gen.G Esports", "Rex Regum Qeon"],
+            "result": "2-1",
+            "maps": ["Fracture", "Lotus", "Haven"]
+          },
+          {
+            "teams": ["TALON", "Global Esports"],
+            "result": "2-1",
+            "maps": ["Split", "Abyss", "Lotus"]
+          }
+        ],
+        "VCTChinaKickoff": [
+          {
+            "teams": ["Trace Esports", "EDward Gaming"],
+            "result": "1-3",
+            "maps": ["Lotus", "Bind", "Abyss", "Fracture"]
+          }
+        ],
+        "VCTAmericas": [
+          {
+            "teams": ["100 Thieves", "NRG"],
+            "result": "1-2",
+            "maps": ["Lotus", "Pearl", "Bind"]
+          }
+        ]
+      }
+    },
+    "26/01": {
+      "VCTPacific": [
+        {
+          "teams": ["Paper Rex", "ZETA DIVISION"],
+          "result": "2-0",
+          "maps": ["Lotus", "Fracture"]
+        },
+        {
+          "teams": ["Nongshim RedForce", "BOOM Esports"],
+          "result": "2-1",
+          "maps": ["Pearl", "Bind", "Lotus"]
+        }
+      ]
+    }
+  },
+  "teams": {
+    "TraceEsports": {
+      "url": "img/Logo/LogoteamTraceEsports.png",
+      "players": [
+        { "name": "Zhang Zhanpeng", "nickname": "LuoK1ng", "img": null },
+        { "name": "Lu Zhinan", "nickname": "Kai", "img": null },
+        { "name": "Song Xuefeng", "nickname": "FengF", "img": null },
+        { "name": "Ho Shun Hei", "nickname": "heybay", "img": null },
+        { "name": "Zhong Jianfei", "nickname": "Biank", "img": null }
+      ]
+    },
+    "EDwardGaming": {
+      "url": "img/Logo/LogoteamEDG.png",
+      "players": [
+        { "name": "Wang Senxu", "nickname": "nobody", "img": null },
+        { "name": "Hsien Meng-Hsun", "nickname": "S1Mon", "img": null },
+        { "name": "Zheng Yongkang", "nickname": "ZmjjKK", "img": null },
+        { "name": "Wan Shunzhi", "nickname": "CHICHOO", "img": null },
+        { "name": "Zhang Zhao", "nickname": "Smoggy", "img": null }
+      ]
+    },
+    "PaperRex": {
+      "logo": null,
+      "players": [
+        { "name": "Aaron Leonhart", "nickname": "mindfreak", "img": null },
+        { "name": "Wang Jing Jie", "nickname": "Jinggg", "img": null },
+        { "name": "Jason Susanto", "nickname": "f0rsakeN", "img": null },
+        { "name": "Khalish Rusyaidee", "nickname": "d4v41", "img": null },
+        { "name": "Ilya Petrov", "nickname": "something", "img": null }
+      ]
+    },
+    "T1": {
+      "logo": null,
+      "players": [
+        { "name": "Kim Gu-taek", "nickname": "stax", "img": null },
+        { "name": "Kim Tae-oh", "nickname": "Meteor", "img": null },
+        { "name": "Go Young-sup", "nickname": "Sylvan", "img": null },
+        { "name": "Yu Byeong-cheol", "nickname": "BuZz", "img": null },
+        { "name": "Ham Woo-ju", "nickname": "iZu", "img": null }
+      ]
+    },
+    "BilibiliGaming": {
+      "url": "img/Logo/LogoteamBLG.png",
+      "players": [
+        { "name": "Wang Haozhe", "nickname": "whzy", "img": null },
+        { "name": "Lu Yinzhong", "nickname": "Levius", "img": null },
+        { "name": "Wang Xiaojie", "nickname": "rushia", "img": null },
+        { "name": "Marcus Tan", "nickname": "nephh", "img": null },
+        { "name": "Liu Yuxiang", "nickname": "Knight", "img": null }
+      ]
+    },
+    "FunPlusPhoenix": {
+      "url": "img/Logo/LogoteamFPX.png",
+      "players": [
+        { "name": "Zhang Bolin", "nickname": "BerLIN", "img": null },
+        { "name": "Kale Dunne", "nickname": "Autumn", "img": null },
+        { "name": "Zhang Yang", "nickname": "AAAAY", "img": null },
+        { "name": "Qu Donghao", "nickname": "Life", "img": null },
+        { "name": "Wang Lei", "nickname": "yosemite", "img": null }
+      ]
+    },
+    "DRX": {
+      "logo": null,
+      "players": [
+        { "name": "Kim Myeong-gwan", "nickname": "MaKo", "img": null },
+        { "name": "Cho Min-hyuk", "nickname": "Flashback", "img": null },
+        { "name": "No Ha-jun", "nickname": "free1ng", "img": null },
+        { "name": "Song Hyun-min", "nickname": "HYUNMIN", "img": null },
+        { "name": "Kang Ha-bin", "nickname": "BeYN", "img": null }
+      ]
+    },
+    "NongshimRedForce": {
+      "logo": null,
+      "players": [
+        { "name": "Yang Zi-on", "nickname": "Persia", "img": null },
+        { "name": "Kim Mu-bin", "nickname": "Francis", "img": null },
+        { "name": "Kim Ji-woo", "nickname": "margaret", "img": null },
+        { "name": "Lee Hyuk-kyu", "nickname": "Dambi", "img": null },
+        { "name": "Park Sung-hyeon", "nickname": "Ivy", "img": null }
+      ]
+    },
+    "G2Esports": {
+      "logo": null,
+      "players": [
+        { "name": "Jacob Batio", "nickname": "valyn", "img": null },
+        { "name": "Alexander Mor", "nickname": "jawgemo", "img": null },
+        { "name": "Trent Cairns", "nickname": "trent", "img": null },
+        { "name": "Jonah Pulice", "nickname": "JonahP", "img": null },
+        { "name": "Nathan Orf", "nickname": "leaf", "img": null }
+      ]
+    },
+    "Cloud9": {
+      "url": "img/Logo/LogoCloud9.png",
+      "players": [
+        { "name": "Mitch Semago", "nickname": "mitch", "img": null },
+        { "name": "Erick Bach", "nickname": "Xeppaa", "img": null },
+        { "name": "Victor Truong", "nickname": "v1c", "img": null },
+        { "name": "Michael Bernet", "nickname": "neT", "img": null },
+        { "name": "Francis Hoang", "nickname": "OXY", "img": null }
+      ]
+    },
+    "JDGaming": {
+      "url": "img/Logo/LogoteamJDG.png",
+      "players": [
+        { "name": "Park Young-chan", "nickname": "stew", "img": null },
+        { "name": "Yong Haochong", "nickname": "jkuro", "img": null },
+        { "name": "Chen Tingxun", "nickname": "MrCANI", "img": null },
+        { "name": "Geng Haoran", "nickname": "Babyblue", "img": null },
+        { "name": "Liu Zihan", "nickname": "Z1yan", "img": null }
+      ]
+    },
+    "XLGEsports": {
+      "url": "img/Logo/LogoteamXLG.png",
+      "players": [
+        { "name": "Park Young-chan", "nickname": "stew", "img": null },
+        { "name": "Yong Haochong", "nickname": "jkuro", "img": null },
+        { "name": "Chen Tingxun", "nickname": "MrCANI", "img": null },
+        { "name": "Geng Haoran", "nickname": "Babyblue", "img": null },
+        { "name": "Liu Zihan", "nickname": "Z1yan", "img": null }
+      ]
+    },
+    "NovaEsports": {
+      "url": "img/Logo/LogoteamNova.png",
+      "players": [
+        { "name": "Ye Xiaodong", "nickname": "o0o0o", "img": null },
+        { "name": "Ali Kobraee", "nickname": "SWERL", "img": null },
+        { "name": "Wang Qingchuan", "nickname": "CB", "img": null },
+        { "name": "Zhao Zejun", "nickname": "Ezeir", "img": null },
+        { "name": "Guang Honglin", "nickname": "GuanG", "img": null }
+      ]
+    },
+    "DragonRangerGaming": {
+      "url": "img/Logo/LogoteamDRG.png",
+      "players": [
+        { "name": "Lo Rui", "nickname": "Flex1n", "img": null },
+        { "name": "Ilya Ushakov", "nickname": "vo0kashu", "img": null },
+        { "name": "Zheng Yujun", "nickname": "Cangshu", "img": null },
+        { "name": "Shao Yi-qun", "nickname": "Nicc", "img": null },
+        { "name": "Chen Cheng-ching", "nickname": "TvirusLuke", "img": null },
+        { "name": "Lin Dingyu", "nickname": "SpiritZ1", "img": null }
+      ]
+    },
+    "TeamLiquid": {
+      "url": "img/Logo/LogoteamLiquid.png",
+      "players": [
+        { "name": "Ayaz Akhmetshin", "nickname": "nAts", "img": null },
+        { "name": "Patryk Fabrowski", "nickname": "paTiTek", "img": null },
+        { "name": "Maks Rychlewski", "nickname": "kamyk", "img": null },
+        { "name": "Georgio Sanassy", "nickname": "Keiko", "img": null },
+        { "name": "Kamil Frąckowiak", "nickname": "kamo", "img": null }
+      ]
+    },
+    "FUTEsports": {
+      "url": "img/Logo/LogoteamFUT.png",
+      "players": [
+        { "name": "Furkan Yeğen", "nickname": "MrFaliN", "img": null },
+        { "name": "Doğan Gözgen", "nickname": "xeus", "img": null },
+        { "name": "Eray Budak", "nickname": "yetujey", "img": null },
+        { "name": "Ata Tan", "nickname": "AtaKaptan", "img": null },
+        { "name": "Doğukan Balaban", "nickname": "qRaxs", "img": null }
+      ]
+    },
+    "TeamHeretics": {
+      "url": "img/Logo/LogoteamHeretics.png",
+      "players": [
+        { "name": "Ričardas Lukaševičius", "nickname": "Boo", "img": null },
+        {
+          "name": "Dominykas Lukaševičius",
+          "nickname": "MiniBoo",
+          "img": null
+        },
+        { "name": "Mert Alkan", "nickname": "Wo0t", "img": null },
+        { "name": "Enes Ecirli", "nickname": "RieNs", "img": null },
+        { "name": "Benjamin David Fish", "nickname": "benjyfishy", "img": null }
+      ]
+    },
+    "GentleMates": {
+      "url": "img/Logo/LogoteamGentleMate.png",
+      "players": [
+        { "name": "Patrik Hušek", "nickname": "Minny", "img": null },
+        { "name": "Robbie Boerkamp", "nickname": "RobbieBK", "img": null },
+        { "name": "Thomas Johner", "nickname": "kAdavra", "img": null },
+        { "name": "Pontus Eek", "nickname": "Zyppan", "img": null },
+        { "name": "Haydem Ali", "nickname": "Haydem Ali", "img": null }
+      ]
+    },
+    "KarmineCorp": {
+      "url": "img/Logo/LogoteamKarmine.png",
+      "players": [
+        { "name": "Matias Delipetro", "nickname": "saadhak", "img": null },
+        { "name": "Hazem Khaled", "nickname": "Avez", "img": null },
+        { "name": "Efe Teber", "nickname": "Elite", "img": null },
+        { "name": "Dmitry Ilyushin", "nickname": "SUYGETSU", "img": null },
+        { "name": "Martin Pátek", "nickname": "marteen", "img": null }
+      ]
+    },
+    "GIANTX": {
+      "url": "img/Logo/LogoteamGIANTX.png",
+      "players": [
+        { "name": "Kirill Nehozhin", "nickname": "Cloud", "img": null },
+        { "name": "Semyon Borchev", "nickname": "purp0", "img": null },
+        { "name": "Emil Trajkovski", "nickname": "runneR", "img": null },
+        { "name": "Miłosz Duda", "nickname": "westside", "img": null },
+        { "name": "Tomás Machado", "nickname": "tomaszy", "img": null }
+      ]
+    },
+    "NatusVincere": {
+      "url": "img/Logo/LogoteamNavi.png",
+      "players": [
+        { "name": "Kyrylo Karasov", "nickname": "ANGE1", "img": null },
+        { "name": "Andrey Kiprsky", "nickname": "Shao", "img": null },
+        { "name": "Uğur Güç", "nickname": "Ruxic", "img": null },
+        { "name": "Emirhan Kat", "nickname": "hiro", "img": null },
+        { "name": "Gianfranco Potestio", "nickname": "koalanoob", "img": null }
+      ]
+    },
+    "Fnatic": {
+      "url": "img/Logo/LogoteamFnatic.png",
+      "players": [
+        { "name": "Jake Howlett", "nickname": "Boaster", "img": null },
+        { "name": "Austin Roberts", "nickname": "crashies", "img": null },
+        { "name": "Kajetan Haremski", "nickname": "kaajak", "img": null },
+        { "name": "Timofey Khromov", "nickname": "Chronicle", "img": null },
+        { "name": "Emir Ali Beder", "nickname": "Alfajer", "img": null }
+      ]
+    },
+    "FURIAEsports": {
+      "url": "img/Logo/LogoteamFuria.png",
+      "players": [
+        { "name": "Rafael Lima", "nickname": "raafa", "img": null },
+        { "name": "Olavo Marcelo", "nickname": "heat", "img": null },
+        { "name": "Leonardo Serrati", "nickname": "mwzera", "img": null },
+        { "name": "Ilan Eloy", "nickname": "havoc", "img": null },
+        { "name": "Khalil Schmidt", "nickname": "Khalil", "img": null }
+      ]
+    },
+    "EvilGeniuses": {
+      "url": "img/Logo/LogoteamEG.png",
+      "players": [
+        { "name": "Nicholas Garrison", "nickname": "NaturE", "img": null },
+        { "name": "Derrek Ha", "nickname": "Derrek", "img": null },
+        { "name": "Phat Le", "nickname": "supamen", "img": null },
+        { "name": "Jacob Lange", "nickname": "icy", "img": null },
+        { "name": "Jaccob Whiteaker", "nickname": "yay", "img": null }
+      ]
+    },
+    "MIBR": {
+      "url": "img/Logo/LogoteamMIBR.png",
+      "players": [
+        { "name": "Arthur Araujo", "nickname": "artzin", "img": null },
+        { "name": "Eduardo Soeiro", "nickname": "xenom", "img": null },
+        { "name": "Gabriel Cortez", "nickname": "cortezia", "img": null },
+        { "name": "Agustin Ibarra", "nickname": "nzr", "img": null },
+        { "name": "Erick Santos", "nickname": "aspas", "img": null }
+      ]
+    },
+    "Apeks": {
+      "url": "img/Logo/LogoteamApexs.png",
+      "players": [
+        { "name": "Ava Eugene", "nickname": "florescent", "img": null },
+        { "name": "Tautvydas Paldavicius", "nickname": "hype", "img": null },
+        { "name": "Michał Łącki", "nickname": "MOLSI", "img": null },
+        { "name": "Auni Chahade", "nickname": "AvovA", "img": null },
+        { "name": "Mehmet Batu Özaslan", "nickname": "batujnax", "img": null }
+      ]
+    },
+    "KOI": {
+      "url": "img/Logo/LogoteamKOI.png",
+      "players": [
+        { "name": "Xavier Carlson", "nickname": "flyuh", "img": null },
+        { "name": "Grzegorz Ryczko", "nickname": "grubinho", "img": null },
+        { "name": "Bogdan Naumov", "nickname": "sheydos", "img": null },
+        { "name": "Dawid Czarnecki", "nickname": "Filu", "img": null },
+        { "name": "Dom Sulcas", "nickname": "soulcas", "img": null }
+      ]
+    },
+    "KRÛEsports": {
+      "url": "img/Logo/LogoteamKRU.png",
+      "players": [
+        {
+          "name": "Marco Eliot Machuca Amaro",
+          "nickname": "Melser",
+          "img": null
+        },
+        { "name": "Angelo Mori", "nickname": "keznit", "img": null },
+        { "name": "Roberto Rivas", "nickname": "Mazino", "img": null },
+        { "name": "Benjamín Poblete", "nickname": "adverso", "img": null },
+        { "name": "Fabian Usnayo", "nickname": "Shyy", "img": null }
+      ]
+    },
+    "2GAMEEsports": {
+      "url": "img/Logo/Logoteam2GAME.png",
+      "players": [
+        { "name": "Vitor Gobo", "nickname": "gobera", "img": null },
+        { "name": "Brenno Roberto", "nickname": "Zap", "img": null },
+        { "name": "Luis-Henrique Viveiros", "nickname": "pryze", "img": null },
+        { "name": "Rodrigo Lombardi", "nickname": "spike", "img": null },
+        { "name": "Caio Morita", "nickname": "silentzz", "img": null },
+        { "name": "Luiz Reche", "nickname": "lz", "img": null }
+      ]
+    },
+    "100Thieves": {
+      "url": "img/Logo/Logoteam100T.png",
+      "players": [
+        { "name": "Kelden Pupello", "nickname": "Boostio", "img": null },
+        { "name": "Alexander Dituri", "nickname": "zander", "img": null },
+        { "name": "Matthew Panganiban", "nickname": "Cryocells", "img": null },
+        { "name": "Daniel Vucenovic", "nickname": "eeiu", "img": null },
+        { "name": "Peter Mazuryk", "nickname": "Asuna", "img": null }
+      ]
+    },
+    "NRG": {
+      "url": "img/Logo/LogoteamNRG.png",
+      "players": [
+        { "name": "Pujan Mehta", "nickname": "FiNESSE", "img": null },
+        { "name": "Sam Oh", "nickname": "s0m", "img": null },
+        { "name": "Andrew Maust", "nickname": "Verno", "img": null },
+        { "name": "Adam Pampuch", "nickname": "mada", "img": null },
+        { "name": "Ethan Arnold", "nickname": "Ethan", "img": null }
+      ]
+    },
+    "TALON": {
+      "url": "img/Logo/LogoteamTalon.png",
+      "players": [
+        {
+          "name": "Thanamethk Mahatthananuyut",
+          "nickname": "Crws",
+          "img": null
+        },
+        { "name": "Jittana Nokngam", "nickname": "JitBoyS", "img": null },
+        { "name": "Papaphat Sriprapha", "nickname": "primmie", "img": null },
+        { "name": "Joseph Seungmin Oh", "nickname": "ban", "img": null },
+        { "name": "Peter No", "nickname": "Governor", "img": null }
+      ]
+    },
+    "GlobalEsports": {
+      "url": "img/Logo/LogoteamGE.png",
+      "players": [
+        { "name": "Go Kyung-won", "nickname": "UdoTan", "img": null },
+        { "name": "Savva Fedorov", "nickname": "Kr1stal", "img": null },
+        { "name": "Kelly Sedillo", "nickname": "kellyS", "img": null },
+        { "name": "Federico Evangelista", "nickname": "Papi", "img": null },
+        { "name": "Derrick Yee", "nickname": "Deryeon", "img": null }
+      ]
+    },
+    "GenGEsports": {
+      "url": "img/Logo/LogoteamGENG.png",
+      "players": [
+        { "name": "Byeon Sang-beom", "nickname": "Munchkin", "img": null },
+        { "name": "Jung Jae-sung", "nickname": "Foxy9", "img": null },
+        { "name": "Kim Na-ra", "nickname": "t3xture", "img": null },
+        { "name": "Chae Young-moon", "nickname": "yoman", "img": null },
+        { "name": "Kim Won-tae", "nickname": "Karon", "img": null }
+      ]
+    },
+    "RexRegumQeon": {
+      "url": "img/Logo/LogoteamRRQ.png",
+      "players": [
+        { "name": "Park Gun", "nickname": "Estrella", "img": null },
+        { "name": "Cahya Nugraha", "nickname": "Monyet", "img": null },
+        { "name": "David Monangin", "nickname": "xffero", "img": null },
+        { "name": "Maksim Batorov", "nickname": "Jemkin", "img": null },
+        { "name": "Bryan Carlos Setiawan", "nickname": "Kushy", "img": null }
+      ]
+    },
+    "ZETADIVISION": {
+      "logo": null,
+      "players": [
+        { "name": "Yuma Hashimoto", "nickname": "Dep", "img": null },
+        { "name": "Shota Watanabe", "nickname": "SugarZ3ro", "img": null },
+        { "name": "Hikaru Mizutani", "nickname": "CLZ", "img": null },
+        { "name": "Shota Aoki", "nickname": "SyouTa", "img": null },
+        { "name": "Yuto Mizomori", "nickname": "Xdll", "img": null }
+      ]
+    },
+    "BOOMEsports": {
+      "logo": null,
+      "players": [
+        { "name": "Zhumagali Dastan", "nickname": "dos9", "img": null },
+        { "name": "Fikri Zaki Hamdani", "nickname": "Famouz", "img": null },
+        { "name": "Hildegard Arnaldo", "nickname": "Shiro", "img": null },
+        {
+          "name": "Sheldon Andersen Chandra",
+          "nickname": "NcSlasher",
+          "img": null
+        },
+        { "name": "Rizkie Adla Kusuma", "nickname": "BerserX", "img": null }
+      ]
+    }
+  }
+}

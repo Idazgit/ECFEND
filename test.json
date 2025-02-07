@@ -1,0 +1,207 @@
+[
+  {
+    "date": "21/01",
+    "regions": [
+      {
+        "region": "VCTChinaKickoff",
+        "matchs": [
+          {
+            "teams": ["JD Gaming", "XLG Esports"],
+            "result": "1-2",
+            "maps": ["Pearl", "Bind", "Haven"]
+          },
+          {
+            "teams": ["Nova Esports", "Dragon Ranger Gaming"],
+            "result": "0-2",
+            "maps": ["Pearl", "Bind"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "22/01",
+    "regions": [
+      {
+        "region": "VCTChinaKickoff",
+        "matchs": [
+          {
+            "teams": ["EDward Gaming", "XLG Esports"],
+            "result": "2-1",
+            "maps": ["Lotus", "Bind", "Haven"]
+          },
+          {
+            "teams": ["FunPlus Phoenix", "Dragon Ranger Gaming"],
+            "result": "1-2",
+            "maps": ["Abyss", "Pearl", "Haven"]
+          }
+        ]
+      },
+      {
+        "region": "VCTEMEAKickoff",
+        "matchs": [
+          {
+            "teams": ["Team Heretics", "Gentle Mates"],
+            "result": "2-1",
+            "maps": ["Abyss", "Fracture", "Pearl"]
+          },
+          {
+            "teams": ["FUT Esports", "Team Liquid"],
+            "result": "2-0",
+            "maps": ["Pearl", "Fracture"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "23/01",
+    "regions": [
+      {
+        "region": "VCTAmericas",
+        "matchs": [
+          {
+            "teams": ["FURIA Esports", "Evil Geniuses"],
+            "result": "2-0",
+            "maps": ["Abyss", "Fracture"]
+          }
+        ]
+      },
+      {
+        "region": "VCTEMEAKickoff",
+        "matchs": [
+          {
+            "teams": ["Natus Vincere", "Fnatic"],
+            "result": "1-2",
+            "maps": ["Pearl", "Fracture", "Haven"]
+          },
+          {
+            "teams": ["Karmine Corp", "GIANTX"],
+            "result": "1-2",
+            "maps": ["Bind", "Lotus", "Fracture"]
+          }
+        ]
+      },
+      {
+        "region": "VCTChinaKickoff",
+        "matchs": [
+          {
+            "teams": ["Dragon Ranger Gaming", "EDward Gaming"],
+            "result": "0-2",
+            "maps": ["Haven", "Pearl"]
+          },
+          {
+            "teams": ["Bilibili Gaming", "Trace Esports"],
+            "result": "1-2",
+            "maps": ["Bind", "Haven", "Lotus"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "24/01",
+    "regions": [
+      {
+        "region": "VCTAmericas",
+        "matchs": [
+          {
+            "teams": ["KRÛ Esports", "2GAME Esports"],
+            "result": "2-0",
+            "maps": ["Abyss", "Split"]
+          },
+          {
+            "teams": ["Cloud9", "MIBR"],
+            "result": "1-2",
+            "maps": ["Lotus", "Abyss", "Pearl"]
+          }
+        ]
+      },
+      {
+        "region": "VCTEMEAKickoff",
+        "matchs": [
+          {
+            "teams": ["KOI", "Gentle Mates"],
+            "result": "1-2",
+            "maps": ["Haven", "Lotus", "Pearl"]
+          },
+          {
+            "teams": ["Team Liquid", "Apeks"],
+            "result": "2-1",
+            "maps": ["Abyss", "Pearl", "Haven"]
+          }
+        ]
+      },
+      {
+        "region": "VCTChinaKickoff",
+        "matchs": [
+          {
+            "teams": ["Bilibili Gaming", "EDward Gaming"],
+            "result": "0-3",
+            "maps": ["Pearl", "Haven", "Lotus"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "25/01",
+    "regions": [
+      {
+        "region": "VCTPacificKickoff",
+        "matchs": [
+          {
+            "teams": ["Gen.G Esports", "Rex Regum Qeon"],
+            "result": "2-1",
+            "maps": ["Fracture", "Lotus", "Haven"]
+          },
+          {
+            "teams": ["TALON", "Global Esports"],
+            "result": "2-1",
+            "maps": ["Split", "Abyss", "Lotus"]
+          }
+        ]
+      },
+      {
+        "region": "VCTChinaKickoff",
+        "matchs": [
+          {
+            "teams": ["Trace Esports", "EDward Gaming"],
+            "result": "1-3",
+            "maps": ["Lotus", "Bind", "Abyss", "Fracture"]
+          }
+        ]
+      },
+      {
+        "region": "VCTAmericas",
+        "matchs": [
+          {
+            "teams": ["100 Thieves", "NRG"],
+            "result": "1-2",
+            "maps": ["Lotus", "Pearl", "Bind"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "26/01",
+    "regions": [
+      {
+        "region": "VCTPacific",
+        "matchs": [
+          {
+            "teams": ["Paper Rex", "ZETA DIVISION"],
+            "result": "2-0",
+            "maps": ["Lotus", "Fracture"]
+          },
+          {
+            "teams": ["Nongshim RedForce", "BOOM Esports"],
+            "result": "2-1",
+            "maps": ["Pearl", "Bind", "Lotus"]
+          }
+        ]
+      }
+    ]
+  }
+]

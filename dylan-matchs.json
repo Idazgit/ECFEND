@@ -1,0 +1,578 @@
+[
+  {
+    "date": "20/01",
+    "regions": [
+      {
+        "region": "VCTChinaKickoff",
+        "matchs": [
+          {
+            "teams": ["Trace Esports", "EDward Gaming"],
+            "result": "2 - 0",
+            "maps": ["Lotus", "Bind"],
+            "players": [
+              "./img/imgPlayer/Trace Esports/Biank.png",
+              "./img/imgPlayer/Trace Esports/FengF.png",
+              "./img/imgPlayer/Trace Esports/Heybay.png",
+              "./img/imgPlayer/Trace Esports/Kai.png",
+              "./img/imgPlayer/Trace Esports/LuoK1ng.png",
+              "./img/imgPlayer/EDward Gaming/Chichoo.png",
+              "./img/imgPlayer/EDward Gaming/nobody.png",
+              "./img/imgPlayer/EDward Gaming/S1mon.png",
+              "./img/imgPlayer/EDward Gaming/Smoggy.png",
+              "./img/imgPlayer/EDward Gaming/ZmjjKK.png"
+            ]
+          },
+          {
+            "teams": ["Bilibili Gaming", "FunPlus Phoenix"],
+            "result": "2 - 0",
+            "maps": ["Bind", "Lotus"],
+            "players": [
+              "./img/imgPlayer/Bilibili Gaming/Knight.png",
+              "./img/imgPlayer/Bilibili Gaming/Levius.png",
+              "./img/imgPlayer/Bilibili Gaming/nephh.png",
+              "./img/imgPlayer/Bilibili Gaming/rushia.png",
+              "./img/imgPlayer/Bilibili Gaming/whzy.png",
+              "./img/imgPlayer/FunPlus Phoenix/AAAAY.png",
+              "./img/imgPlayer/FunPlus Phoenix/Autumn.png",
+              "./img/imgPlayer/FunPlus Phoenix/BerLIN.png",
+              "./img/imgPlayer/FunPlus Phoenix/Life.png",
+              "./img/imgPlayer/FunPlus Phoenix/Yosemite.png"
+            ]
+          }
+        ]
+      },
+      {
+        "region": "VCTPacificKickoff",
+        "matchs": [
+          {
+            "teams": ["Paper Rex", "T1"],
+            "result": "1 - 2",
+            "maps": ["Bind", "Fracture", "Split"],
+            "players": [
+              "./img/imgPlayer/Paper Rex/D4V41.png",
+              "./img/imgPlayer/Paper Rex/F0rsaken.png",
+              "./img/imgPlayer/Paper Rex/Jinggg.png",
+              "./img/imgPlayer/Paper Rex/mindfreak.png",
+              "./img/imgPlayer/Paper Rex/something.png",
+              "./img/imgPlayer/T1/BuZz.png",
+              "./img/imgPlayer/T1/iZu.png",
+              "./img/imgPlayer/T1/meteor.png",
+              "./img/imgPlayer/T1/stax.png",
+              "./img/imgPlayer/T1/sylvan.png"
+            ]
+          },
+          {
+            "teams": ["DRX", "Nongshim RedForce"],
+            "result": "2 - 1",
+            "maps": ["Lotus", "Pearl", "Fracture"],
+            "players": [
+              "./img/imgPlayer/DRX/beYn.png",
+              "./img/imgPlayer/DRX/Flashback.png",
+              "./img/imgPlayer/DRX/Free1ng.png",
+              "./img/imgPlayer/DRX/Hyunmin.png",
+              "./img/imgPlayer/DRX/Mako.png",
+              "./img/imgPlayer/Nongshim RedForce/Dambi.png",
+              "./img/imgPlayer/Nongshim RedForce/Francis.png",
+              "./img/imgPlayer/Nongshim RedForce/Ivy.png",
+              "./img/imgPlayer/Nongshim RedForce/Margaret.png",
+              "./img/imgPlayer/Nongshim RedForce/Persia.png"
+            ]
+          }
+        ]
+      },
+      {
+        "region": "VCTAmericasKickoff",
+        "matchs": [
+          {
+            "teams": ["G2 Esports", "Cloud9"],
+            "result": "2 - 0",
+            "maps": ["Lotus", "Abyss"],
+            "players": [
+              "./img/imgPlayer/G2 Esports/Jawgemo.png",
+              "./img/imgPlayer/G2 Esports/JonahP.png",
+              "./img/imgPlayer/G2 Esports/Leaf.png",
+              "./img/imgPlayer/G2 Esports/trent.png",
+              "./img/imgPlayer/G2 Esports/valyn.png",
+              "./img/imgPlayer/Cloud9/Mitch.png",
+              "./img/imgPlayer/Cloud9/neT.png",
+              "./img/imgPlayer/Cloud9/OXY.png",
+              "./img/imgPlayer/Cloud9/V1c.png",
+              "./img/imgPlayer/Cloud9/Xeppaa.png"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "21/01",
+    "regions": [
+      {
+        "region": "VCTChinaKickoff",
+        "matchs": [
+          {
+            "teams": ["JD Gaming", "XLG Esports"],
+            "result": "1-2",
+            "maps": ["Pearl", "Bind", "Haven"],
+            "players": [
+              "./img/imgPlayer/JD Gaming/Babyblue.png",
+              "./img/imgPlayer/JD Gaming/Jkuro.png",
+              "./img/imgPlayer/JD Gaming/MrCANI.png",
+              "./img/imgPlayer/JD Gaming/stew.png",
+              "./img/imgPlayer/JD Gaming/Z1yan.png",
+              "./img/imgPlayer/XLG Esports/coconut.png",
+              "./img/imgPlayer/XLG Esports/happywei.png",
+              "./img/imgPlayer/XLG Esports/Rarga.png",
+              "./img/imgPlayer/XLG Esports/Viva.png",
+              "./img/imgPlayer/XLG Esports/YOU.png"
+            ]
+          },
+          {
+            "teams": ["Nova Esports", "Dragon Ranger Gaming"],
+            "result": "0-2",
+            "maps": ["Pearl", "Bind"],
+            "players": [
+              "./img/imgPlayer/Nova Esports/CB.png",
+              "./img/imgPlayer/Nova Esports/Ezeir.png",
+              "./img/imgPlayer/Nova Esports/Guang.png",
+              "./img/imgPlayer/Nova Esports/o0o0o.png",
+              "./img/imgPlayer/Nova Esports/SWERL.png",
+              "./img/imgPlayer/Dragon Ranger Gaming/Cangshu.png",
+              "./img/imgPlayer/Dragon Ranger Gaming/Flex1n.png",
+              "./img/imgPlayer/Dragon Ranger Gaming/Nicc.png",
+              "./img/imgPlayer/Dragon Ranger Gaming/TvirusLuke.png",
+              "./img/imgPlayer/Dragon Ranger Gaming/Vo0kashu.png"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "date": "22/01",
+    "regions": [
+      {
+        "region": "VCTChinaKickoff",
+        "matchs": [
+          {
+            "teams": ["EDward Gaming", "XLG Esports"],
+            "result": "2-1",
+            "maps": ["Lotus", "Bind", "Haven"],
+            "players": [
+              "./img/imgPlayer/EDward Gaming/Chichoo.png",
+              "./img/imgPlayer/EDward Gaming/nobody.png",
+              "./img/imgPlayer/EDward Gaming/S1mon.png",
+              "./img/imgPlayer/EDward Gaming/Smoggy.png",
+              "./img/imgPlayer/EDward Gaming/ZmjjKK.png",
+              "./img/imgPlayer/XLG Esports/coconut.png",
+              "./img/imgPlayer/XLG Esports/happywei.png",
+              "./img/imgPlayer/XLG Esports/Rarga.png",
+              "./img/imgPlayer/XLG Esports/Viva.png",
+              "./img/imgPlayer/XLG Esports/YOU.png"
+            ]
+          },
+          {
+            "teams": ["FunPlus Phoenix", "Dragon Ranger Gaming"],
+            "result": "1-2",
+            "maps": ["Abyss", "Pearl", "Haven"],
+            "players": [
+              "./img/imgPlayer/FunPlus Phoenix/AAAAY.png",
+              "./img/imgPlayer/FunPlus Phoenix/Autumn.png",
+              "./img/imgPlayer/FunPlus Phoenix/BerLIN.png",
+              "./img/imgPlayer/FunPlus Phoenix/Life.png",
+              "./img/imgPlayer/FunPlus Phoenix/Yosemite.png",
+              "./img/imgPlayer/Dragon Ranger Gaming/Cangshu.png",
+              "./img/imgPlayer/Dragon Ranger Gaming/Flex1n.png",
+              "./img/imgPlayer/Dragon Ranger Gaming/Nicc.png",
+              "./img/imgPlayer/Dragon Ranger Gaming/TvirusLuke.png",
+              "./img/imgPlayer/Dragon Ranger Gaming/Vo0kashu.png"
+            ]
+          }
+        ]
+      },
+      {
+        "region": "VCTEMEAKickoff",
+        "matchs": [
+          {
+            "teams": ["Team Heretics", "Gentle Mates"],
+            "result": "2-1",
+            "maps": ["Abyss", "Fracture", "Pearl"],
+            "players": [
+              "./img/imgPlayer/Team Heretics/benjyfichy.png",
+              "./img/imgPlayer/Team Heretics/Boo.png",
+              "./img/imgPlayer/Team Heretics/MiniBoo.png",
+              "./img/imgPlayer/Team Heretics/RieNS.png",
+              "./img/imgPlayer/Team Heretics/Woot.png",
+              "./img/imgPlayer/Gentle Mates/Click.png",
+              "./img/imgPlayer/Gentle Mates/K4DAVRA.png",
+              "./img/imgPlayer/Gentle Mates/Minny.png",
+              "./img/imgPlayer/Gentle Mates/RobbieBK.png",
+              "./img/imgPlayer/Gentle Mates/Zyppan.png"
+            ]
+          },
+          {
+            "teams": ["FUT Esports", "Team Liquid"],
+            "result": "2-0",
+            "maps": ["Pearl", "Fracture"],
+            "players": [
+              "./img/imgPlayer/FUT Esports/AtaKaptan.png",
+              "./img/imgPlayer/FUT Esports/MrFalin.png",
+              "./img/imgPlayer/FUT Esports/qRaxs.png",
+              "./img/imgPlayer/FUT Esports/xeus.png",
+              "./img/imgPlayer/FUT Esports/yetujey.png",
+              "./img/imgPlayer/Team Liquid/kamo.png",
+              "./img/imgPlayer/Team Liquid/kamyk.png",
+              "./img/imgPlayer/Team Liquid/Keiko.png",
+              "./img/imgPlayer/Team Liquid/nAts.png",
+              "./img/imgPlayer/Team Liquid/paTITEK.png"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "23/01",
+    "regions": [
+      {
+        "region": "VCTAmericas",
+        "matchs": [
+          {
+            "teams": ["FURIA Esports", "Evil Geniuses"],
+            "result": "2-0",
+            "maps": ["Abyss", "Fracture"],
+            "players": [
+              "./img/imgPlayer/FURIA/havoc.png",
+              "./img/imgPlayer/FURIA/heat.png",
+              "./img/imgPlayer/FURIA/Khalil.png",
+              "./img/imgPlayer/FURIA/mwzera.png",
+              "./img/imgPlayer/FURIA/raafa.png",
+              "./img/imgPlayer/Evil Geniuses/Derrek.png",
+              "./img/imgPlayer/Evil Geniuses/icy.png",
+              "./img/imgPlayer/Evil Geniuses/NaturE.png",
+              "./img/imgPlayer/Evil Geniuses/supamen.png",
+              "./img/imgPlayer/Evil Geniuses/yay.png"
+            ]
+          }
+        ]
+      },
+      {
+        "region": "VCTEMEAKickoff",
+        "matchs": [
+          {
+            "teams": ["Natus Vincere", "Fnatic"],
+            "result": "1-2",
+            "maps": ["Pearl", "Fracture", "Haven"],
+            "players": [
+              "./img/imgPlayer/Natus Vincere/ANGE1.png",
+              "./img/imgPlayer/Natus Vincere/hiro.png",
+              "./img/imgPlayer/Natus Vincere/koalanoob.png",
+              "./img/imgPlayer/Natus Vincere/Ruxic.png",
+              "./img/imgPlayer/Natus Vincere/Shao.png",
+              "./img/imgPlayer/Fnatic/Alfajer.png",
+              "./img/imgPlayer/Fnatic/Boaster.png",
+              "./img/imgPlayer/Fnatic/Chronicle.png",
+              "./img/imgPlayer/Fnatic/crashies.png",
+              "./img/imgPlayer/Fnatic/kaajak.png"
+            ]
+          },
+          {
+            "teams": ["Karmine Corp", "GIANTX"],
+            "result": "1-2",
+            "maps": ["Bind", "Lotus", "Fracture"],
+            "players": [
+              "./img/imgPlayer/Karmine Corp/Avez.png",
+              "./img/imgPlayer/Karmine Corp/Elite.png",
+              "./img/imgPlayer/Karmine Corp/marteen.png",
+              "./img/imgPlayer/Karmine Corp/saadhak.png",
+              "./img/imgPlayer/Karmine Corp/SUYGETSU.png",
+              "./img/imgPlayer/GIANTX/Cloud.png",
+              "./img/imgPlayer/GIANTX/purpo0.png",
+              "./img/imgPlayer/GIANTX/runneR.png",
+              "./img/imgPlayer/GIANTX/tomaszy.png",
+              "./img/imgPlayer/GIANTX/westside.png"
+            ]
+          }
+        ]
+      },
+      {
+        "region": "VCTChinaKickoff",
+        "matchs": [
+          {
+            "teams": ["Dragon Ranger Gaming", "EDward Gaming"],
+            "result": "0-2",
+            "maps": ["Haven", "Pearl"],
+            "players": [
+              "./img/imgPlayer/Dragon Ranger Gaming/Cangshu.png",
+              "./img/imgPlayer/Dragon Ranger Gaming/Flex1n.png",
+              "./img/imgPlayer/Dragon Ranger Gaming/Nicc.png",
+              "./img/imgPlayer/Dragon Ranger Gaming/TvirusLuke.png",
+              "./img/imgPlayer/Dragon Ranger Gaming/Vo0kashu.png",
+              "./img/imgPlayer/EDward Gaming/Chichoo.png",
+              "./img/imgPlayer/EDward Gaming/nobody.png",
+              "./img/imgPlayer/EDward Gaming/S1mon.png",
+              "./img/imgPlayer/EDward Gaming/Smoggy.png",
+              "./img/imgPlayer/EDward Gaming/ZmjjKK.png"
+            ]
+          },
+          {
+            "teams": ["Bilibili Gaming", "Trace Esports"],
+            "result": "1-2",
+            "maps": ["Bind", "Haven", "Lotus"],
+            "players": [
+              "./img/imgPlayer/Bilibili Gaming/Knight.png",
+              "./img/imgPlayer/Bilibili Gaming/Levius.png",
+              "./img/imgPlayer/Bilibili Gaming/nephh.png",
+              "./img/imgPlayer/Bilibili Gaming/rushia.png",
+              "./img/imgPlayer/Bilibili Gaming/whzy.png",
+              "./img/imgPlayer/Trace Esports/Biank.png",
+              "./img/imgPlayer/Trace Esports/FengF.png",
+              "./img/imgPlayer/Trace Esports/Heybay.png",
+              "./img/imgPlayer/Trace Esports/Kai.png",
+              "./img/imgPlayer/Trace Esports/LuoK1ng.png"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "24/01",
+    "regions": [
+      {
+        "region": "VCTAmericas",
+        "matchs": [
+          {
+            "teams": ["KRÛ Esports", "2GAME Esports"],
+            "result": "2-0",
+            "maps": ["Abyss", "Split"],
+            "players": [
+              "./img/imgPlayer/KRU Esports/adverso.png",
+              "./img/imgPlayer/KRU Esports/keznit.png",
+              "./img/imgPlayer/KRU Esports/Mazino.png",
+              "./img/imgPlayer/KRU Esports/Melser.png",
+              "./img/imgPlayer/KRU Esports/shyy.png",
+              "./img/imgPlayer/2Game Esports/gobera.png",
+              "./img/imgPlayer/2Game Esports/lz.png",
+              "./img/imgPlayer/2Game Esports/pryze.png",
+              "./img/imgPlayer/2Game Esports/silentzz.png",
+              "./img/imgPlayer/2Game Esports/spike.png",
+              "./img/imgPlayer/2Game Esports/ZAp.png"
+            ]
+          },
+          {
+            "teams": ["Cloud9", "MIBR"],
+            "result": "1-2",
+            "maps": ["Lotus", "Abyss", "Pearl"],
+            "players": [
+              "./img/imgPlayer/Cloud9/Mitch.png",
+              "./img/imgPlayer/Cloud9/neT.png",
+              "./img/imgPlayer/Cloud9/OXY.png",
+              "./img/imgPlayer/Cloud9/V1c.png",
+              "./img/imgPlayer/Cloud9/Xeppaa.png",
+              "./img/imgPlayer/MIBR/artzin.png",
+              "./img/imgPlayer/MIBR/aspas.png",
+              "./img/imgPlayer/MIBR/cortezia.png",
+              "./img/imgPlayer/MIBR/nzr.png",
+              "./img/imgPlayer/MIBR/xenom.png"
+            ]
+          }
+        ]
+      },
+      {
+        "region": "VCTEMEAKickoff",
+        "matchs": [
+          {
+            "teams": ["KOI", "Gentle Mates"],
+            "result": "1-2",
+            "maps": ["Haven", "Lotus", "Pearl"],
+            "players": [
+              "./img/imgPlayer/KOI/Filu.png",
+              "./img/imgPlayer/KOI/flyuh.png",
+              "./img/imgPlayer/KOI/grubinho.png",
+              "./img/imgPlayer/KOI/sheydos.png",
+              "./img/imgPlayer/KOI/soulcas.png",
+              "./img/imgPlayer/Gentle Mates/Click.png",
+              "./img/imgPlayer/Gentle Mates/K4DAVRA.png",
+              "./img/imgPlayer/Gentle Mates/Minny.png",
+              "./img/imgPlayer/Gentle Mates/RobbieBK.png",
+              "./img/imgPlayer/Gentle Mates/Zyppan.png"
+            ]
+          },
+          {
+            "teams": ["Team Liquid", "Apeks"],
+            "result": "2-1",
+            "maps": ["Abyss", "Pearl", "Haven"],
+            "players": [
+              "./img/imgPlayer/Team Liquid/kamo.png",
+              "./img/imgPlayer/Team Liquid/kamyk.png",
+              "./img/imgPlayer/Team Liquid/Keiko.png",
+              "./img/imgPlayer/Team Liquid/nAts.png",
+              "./img/imgPlayer/Team Liquid/paTITEK.png",
+              "./img/imgPlayer/Apeks/AvovA.png",
+              "./img/imgPlayer/Apeks/batujnax.png",
+              "./img/imgPlayer/Apeks/florescent.png",
+              "./img/imgPlayer/Apeks/hype.png",
+              "./img/imgPlayer/Apeks/MOLSI.png"
+            ]
+          }
+        ]
+      },
+      {
+        "region": "VCTChinaKickoff",
+        "matchs": [
+          {
+            "teams": ["Bilibili Gaming", "EDward Gaming"],
+            "result": "0-3",
+            "maps": ["Pearl", "Haven", "Lotus"],
+            "players": [
+              "./img/imgPlayer/Bilibili Gaming/Knight.png",
+              "./img/imgPlayer/Bilibili Gaming/Levius.png",
+              "./img/imgPlayer/Bilibili Gaming/nephh.png",
+              "./img/imgPlayer/Bilibili Gaming/rushia.png",
+              "./img/imgPlayer/Bilibili Gaming/whzy.png",
+              "./img/imgPlayer/EDward Gaming/Chichoo.png",
+              "./img/imgPlayer/EDward Gaming/nobody.png",
+              "./img/imgPlayer/EDward Gaming/S1mon.png",
+              "./img/imgPlayer/EDward Gaming/Smoggy.png",
+              "./img/imgPlayer/EDward Gaming/ZmjjKK.png"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "25/01",
+    "regions": [
+      {
+        "region": "VCTPacificKickoff",
+        "matchs": [
+          {
+            "teams": ["Gen.G Esports", "Rex Regum Qeon"],
+            "result": "2-1",
+            "maps": ["Fracture", "Lotus", "Haven"],
+            "players": [
+              "./img/imgPlayer/Geng.G Esports/Focy9.png",
+              "./img/imgPlayer/Geng.G Esports/Karon.png",
+              "./img/imgPlayer/Geng.G Esports/Munchkin.png",
+              "./img/imgPlayer/Geng.G Esports/t3xture.png",
+              "./img/imgPlayer/Geng.G Esports/yoman.png",
+              "./img/imgPlayer/Rex Regum Qeon/Estrella.png",
+              "./img/imgPlayer/Rex Regum Qeon/Jemkin.png",
+              "./img/imgPlayer/Rex Regum Qeon/Kushy.png",
+              "./img/imgPlayer/Rex Regum Qeon/Monyet.png",
+              "./img/imgPlayer/Rex Regum Qeon/xffero.png"
+            ]
+          },
+          {
+            "teams": ["TALON", "Global Esports"],
+            "result": "2-1",
+            "maps": ["Split", "Abyss", "Lotus"],
+            "players": [
+              "./img/imgPlayer/TALON/ban.png",
+              "./img/imgPlayer/TALON/Crws.png",
+              "./img/imgPlayer/TALON/Governor.png",
+              "./img/imgPlayer/TALON/JitBooys.png",
+              "./img/imgPlayer/TALON/primmie.png",
+              "./img/imgPlayer/Global Esports/deryeon.png",
+              "./img/imgPlayer/Global Esports/kellys.png",
+              "./img/imgPlayer/Global Esports/Kr1stal.png",
+              "./img/imgPlayer/Global Esports/Papi.png",
+              "./img/imgPlayer/Global Esports/UdoTan.png"
+            ]
+          }
+        ]
+      },
+      {
+        "region": "VCTChinaKickoff",
+        "matchs": [
+          {
+            "teams": ["Trace Esports", "EDward Gaming"],
+            "result": "1-3",
+            "maps": ["Lotus", "Bind", "Abyss", "Fracture"],
+            "players": [
+              "./img/imgPlayer/Trace Esports/Biank.png",
+              "./img/imgPlayer/Trace Esports/FengF.png",
+              "./img/imgPlayer/Trace Esports/Heybay.png",
+              "./img/imgPlayer/Trace Esports/Kai.png",
+              "./img/imgPlayer/Trace Esports/LuoK1ng.png",
+              "./img/imgPlayer/EDward Gaming/Chichoo.png",
+              "./img/imgPlayer/EDward Gaming/nobody.png",
+              "./img/imgPlayer/EDward Gaming/S1mon.png",
+              "./img/imgPlayer/EDward Gaming/Smoggy.png",
+              "./img/imgPlayer/EDward Gaming/ZmjjKK.png"
+            ]
+          }
+        ]
+      },
+      {
+        "region": "VCTAmericas",
+        "matchs": [
+          {
+            "teams": ["100 Thieves", "NRG"],
+            "result": "1-2",
+            "maps": ["Lotus", "Pearl", "Bind"],
+            "players": [
+              "./img/imgPlayer/100 thieves/asuna.png",
+              "./img/imgPlayer/100 thieves/Boostio.png",
+              "./img/imgPlayer/100 thieves/Cryocells.png",
+              "./img/imgPlayer/100 thieves/eeiu.png",
+              "./img/imgPlayer/100 thieves/zander.png",
+              "./img/imgPlayer/NRG/Ethan.png",
+              "./img/imgPlayer/NRG/Finesse.png",
+              "./img/imgPlayer/NRG/mada.png",
+              "./img/imgPlayer/NRG/sOm.png",
+              "./img/imgPlayer/NRG/Verno.png"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "26/01",
+    "regions": [
+      {
+        "region": "VCTPacific",
+        "matchs": [
+          {
+            "teams": ["Paper Rex", "ZETA DIVISION"],
+            "result": "2-0",
+            "maps": ["Lotus", "Fracture"],
+            "players": [
+              "./img/imgPlayer/Paper Rex/D4V41.png",
+              "./img/imgPlayer/Paper Rex/F0rsaken.png",
+              "./img/imgPlayer/Paper Rex/Jinggg.png",
+              "./img/imgPlayer/Paper Rex/mindfreak.png",
+              "./img/imgPlayer/Paper Rex/something.png",
+              "./img/imgPlayer/ZETA DIVISION/CLZ.png",
+              "./img/imgPlayer/ZETA DIVISION/Dep.png",
+              "./img/imgPlayer/ZETA DIVISION/SugarZ3ro.png",
+              "./img/imgPlayer/ZETA DIVISION/Syouta.png",
+              "./img/imgPlayer/ZETA DIVISION/Xdll.png"
+            ]
+          },
+          {
+            "teams": ["Nongshim RedForce", "BOOM Esports"],
+            "result": "2-1",
+            "maps": ["Pearl", "Bind", "Lotus"],
+            "players": [
+              "./img/imgPlayer/Nongshim RedForce/Dambi.png",
+              "./img/imgPlayer/Nongshim RedForce/Francis.png",
+              "./img/imgPlayer/Nongshim RedForce/Ivy.png",
+              "./img/imgPlayer/Nongshim RedForce/Margaret.png",
+              "./img/imgPlayer/Nongshim RedForce/Persia.png",
+              "./img/imgPlayer/BOOM Esprots/BerserX.png",
+              "./img/imgPlayer/BOOM Esprots/dos9.png",
+              "./img/imgPlayer/BOOM Esprots/Famouz.png",
+              "./img/imgPlayer/BOOM Esprots/NcShlasher.png",
+              "./img/imgPlayer/BOOM Esprots/Shiro.png"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
