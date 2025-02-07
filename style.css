@@ -6,100 +6,204 @@
   font-family: "PT Sans", serif;
 }
 body {
-  width: 100%;
-  height: 100vh;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 10px;
+  background-color: #f9f9f9;
 }
 
-header {
-  width: 100%;
-  height: 6.9vh;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: end;
-}
 .nav {
-  width: 100%;
-  height: 100%;
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
+  overflow-x: auto;
+  gap: 10px;
+  padding: 10px 0;
 }
+
 .day {
-  height: 100%;
-  width: 14%;
-  background-color: #313840;
-  border: black 1px solid;
-  font-size: 1.6rem;
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  min-width: 80px;
   text-align: center;
 }
-.menuBurger {
-  display: flex;
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
   justify-content: center;
   align-items: center;
-  width: 50px;
-  height: 50px;
-  z-index: 1;
 }
-.fa-solid {
-  font-size: 2.5rem;
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  position: relative;
+  width: 90%;
+  max-width: 400px;
 }
-.pageDay1 {
-  height: 100vh;
-  width: 100vw;
+
+.closeModal {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.carousel {
+  width: 100%;
+  height: auto;
+  margin: 20px 0;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+main {
   display: flex;
   flex-direction: column;
+  gap: 20px;
+  padding: 10px 0;
 }
+
 .container {
-  width: 100%;
-  height: 33%;
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
-.container1 {
-  padding-top: 30px;
-}
+
 .region {
-  width: 100%;
-  height: 12%;
-  background-color: #d9d9d9;
-  font-size: 1.7rem;
-  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
+
 .groupeMatch {
   display: flex;
   flex-direction: column;
-  justify-content: start;
-  gap: 20px;
-  width: 100%;
-  height: 88%;
-}
-.match {
-  width: 100%;
-  height: 30%;
-  background-color: #313840;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  border-radius: 5%;
-}
-.logo {
-  height: 80%;
-  width: 20%;
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
+  gap: 15px;
 }
 
-.score {
-  width: 25%;
-  height: 60%;
-  font-size: 1.7rem;
+.match {
   display: flex;
-  justify-content: center;
   align-items: center;
-  background-color: #2a3038;
-  border-radius: 20%;
+  justify-content: space-between;
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
 }
+
+.logo {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+
+.match p {
+  font-size: 16px;
+  font-weight: bold;
+}
+.pseudo-joueur {
+  margin: 10px 0;
+  font-size: 1.2em;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .nav {
+    justify-content: center;
+  }
+
+  .modal-content {
+    width: 70%;
+    max-width: 600px;
+  }
+
+  main {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 48%;
+  }
+
+  .groupeMatch {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .match {
+    width: 100%;
+  }
+
+  .logo {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    padding: 20px;
+  }
+
+  .modal-content {
+    width: 50%;
+    max-width: 800px;
+  }
+
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .container {
+    width: 31%;
+  }
+
+  .match {
+    width: 100%;
+  }
+
+  .logo {
+    width: 70px;
+    height: 70px;
+  }
+
+  button {
+    padding: 15px 30px;
+  }
+}
+
 .logoTeam1 {
   background-image: url(./img/Logo/LogoteamTraceEsports.png);
 }
@@ -133,33 +237,4 @@ header {
 }
 .match6 {
   display: none;
-}
-.modal {
-  z-index: 1000;
-  display: none;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-  position: fixed;
-  background: rgba(0, 0, 0, 0.5);
-  width: 100vw;
-  height: 100vh;
-  top: 0;
-  left: 0;
-}
-
-.modal-content {
-  background-color: blue;
-  width: 100%;
-  height: 100%;
-}
-.carousel {
-  width: 80%;
-  height: 80%;
-}
-.closeCarou {
-  display: flex;
-  justify-content: right;
-  width: 270px;
-  color: white;
 }

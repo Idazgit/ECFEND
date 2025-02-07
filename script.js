@@ -1,13 +1,15 @@
 // on définit les matchs comme étant un tableau
-let matchsDylan = [];
+let matchsTristan = [];
 
-const generateDatesDylan = (array) => {
+const generateDatesTristan = (array) => {
   const nav = document.querySelector(".nav");
   array.forEach((element) => {
     const div = document.createElement("div");
     div.classList.add("day");
     div.textContent = element.date;
-    div.addEventListener("click", () => generateSectionDylan(element.regions));
+    div.addEventListener("click", () =>
+      generateSectionTristan(element.regions)
+    );
     nav.appendChild(div);
   });
 };
@@ -20,11 +22,27 @@ modal.appendChild(modalContent);
 let carouselIndex = 0;
 
 const generateModalContent = (players) => {
-  modalContent.innerHTML = "";
+  const closeModal = document.createElement("div");
+  closeModal.className = "fa-solid fa-xmark";
+
+  // on définit la fermeture du modal et stopPropa pour ne pas cliquer derrière
+  closeModal.addEventListener("click", (event) => {
+    event.stopPropagation();
+    modal.style.display = "none";
+    modalContent.innerHTML = "";
+  });
+
   const img = document.createElement("img");
   img.classList.add("carousel");
-
   img.src = players[carouselIndex];
+
+  // Ajout de la div pour le pseudo
+  const playerName = document.createElement("div");
+  playerName.classList.add("pseudo-joueur");
+  const path = players[carouselIndex];
+  const fileName = path.split("/").pop().replace(".png", "");
+  playerName.textContent = fileName;
+
   //bouton précédent du carousel qui enleve -1 au carouselindex
   const previousButton = document.createElement("button");
   previousButton.textContent = "Précédent";
@@ -32,6 +50,12 @@ const generateModalContent = (players) => {
     carouselIndex--;
     if (carouselIndex === -1) carouselIndex = players.length - 1;
     img.src = players[carouselIndex];
+    //pseudo qui change en grace a l'index
+    const newFileName = players[carouselIndex]
+      .split("/")
+      .pop()
+      .replace(".png", "");
+    playerName.textContent = newFileName;
   });
   //bouton suivant du carousel qui rajoute +1 au carouselindex
   const nextButton = document.createElement("button");
@@ -40,18 +64,18 @@ const generateModalContent = (players) => {
     carouselIndex++;
     if (carouselIndex === players.length) carouselIndex = 0;
     img.src = players[carouselIndex];
+    //pseudo qui change en grace a l'index
+    const newFileName = players[carouselIndex]
+      .split("/")
+      .pop()
+      .replace(".png", "");
+    playerName.textContent = newFileName;
   });
   // on append les deux boutons au modalContent
-  modalContent.append(previousButton, nextButton, img);
+  modalContent.append(closeModal, img, playerName, previousButton, nextButton);
 };
-// on définit la fermeture du modal et stopPropa pour ne pas cliquer derrière
-const closeModal = document.querySelector(".closeModal");
-closeModal.addEventListener("click", (event) => {
-  event.stopPropagation();
-  modal.style.display = "none";
-});
 
-const generateSectionDylan = (array) => {
+const generateSectionTristan = (array) => {
   const main = document.querySelector("main");
   main.innerHTML = "";
 
@@ -100,13 +124,13 @@ const generateSectionDylan = (array) => {
   });
 };
 // fetch du Json pour pouvoir récupérer les données et appele la
-const fetchDataDylan = () => {
-  fetch("./dylan-matchs.json")
+const fetchDataTristan = () => {
+  fetch("./tristan-matchs.json")
     .then((response) => response.json())
     .then((data) => {
-      matchsDylan = data;
-      generateDatesDylan(matchsDylan);
-      generateSectionDylan(matchsDylan[0].regions);
+      matchsTristan = data;
+      generateDatesTristan(matchsTristan);
+      generateSectionTristan(matchsTristan[0].regions);
     });
 };
-fetchDataDylan();
+fetchDataTristan();

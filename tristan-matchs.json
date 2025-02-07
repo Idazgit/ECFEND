@@ -199,7 +199,7 @@
             "result": "2-1",
             "maps": ["Abyss", "Fracture", "Pearl"],
             "players": [
-              "./img/imgPlayer/Team Heretics/benjyfichy.png",
+              "./img/imgPlayer/Team Heretics/benjyfishy.png",
               "./img/imgPlayer/Team Heretics/Boo.png",
               "./img/imgPlayer/Team Heretics/MiniBoo.png",
               "./img/imgPlayer/Team Heretics/RieNS.png",
@@ -454,11 +454,11 @@
             "result": "2-1",
             "maps": ["Fracture", "Lotus", "Haven"],
             "players": [
-              "./img/imgPlayer/Geng.G Esports/Focy9.png",
-              "./img/imgPlayer/Geng.G Esports/Karon.png",
-              "./img/imgPlayer/Geng.G Esports/Munchkin.png",
-              "./img/imgPlayer/Geng.G Esports/t3xture.png",
-              "./img/imgPlayer/Geng.G Esports/yoman.png",
+              "./img/imgPlayer/GenG Esports/Focy9.png",
+              "./img/imgPlayer/GenG Esports/Karon.png",
+              "./img/imgPlayer/GenG Esports/Munchkin.png",
+              "./img/imgPlayer/GenG Esports/t3xture.png",
+              "./img/imgPlayer/GenG Esports/yoman.png",
               "./img/imgPlayer/Rex Regum Qeon/Estrella.png",
               "./img/imgPlayer/Rex Regum Qeon/Jemkin.png",
               "./img/imgPlayer/Rex Regum Qeon/Kushy.png",
@@ -474,7 +474,7 @@
               "./img/imgPlayer/TALON/ban.png",
               "./img/imgPlayer/TALON/Crws.png",
               "./img/imgPlayer/TALON/Governor.png",
-              "./img/imgPlayer/TALON/JitBooys.png",
+              "./img/imgPlayer/TALON/JitBoys.png",
               "./img/imgPlayer/TALON/primmie.png",
               "./img/imgPlayer/Global Esports/deryeon.png",
               "./img/imgPlayer/Global Esports/kellys.png",
@@ -523,7 +523,7 @@
               "./img/imgPlayer/NRG/Ethan.png",
               "./img/imgPlayer/NRG/Finesse.png",
               "./img/imgPlayer/NRG/mada.png",
-              "./img/imgPlayer/NRG/sOm.png",
+              "./img/imgPlayer/NRG/s0m.png",
               "./img/imgPlayer/NRG/Verno.png"
             ]
           }
@@ -564,11 +564,11 @@
               "./img/imgPlayer/Nongshim RedForce/Ivy.png",
               "./img/imgPlayer/Nongshim RedForce/Margaret.png",
               "./img/imgPlayer/Nongshim RedForce/Persia.png",
-              "./img/imgPlayer/BOOM Esprots/BerserX.png",
-              "./img/imgPlayer/BOOM Esprots/dos9.png",
-              "./img/imgPlayer/BOOM Esprots/Famouz.png",
-              "./img/imgPlayer/BOOM Esprots/NcShlasher.png",
-              "./img/imgPlayer/BOOM Esprots/Shiro.png"
+              "./img/imgPlayer/BOOM Esports/BerserX.png",
+              "./img/imgPlayer/BOOM Esports/dos9.png",
+              "./img/imgPlayer/BOOM Esports/Famouz.png",
+              "./img/imgPlayer/BOOM Esports/NcShlasher.png",
+              "./img/imgPlayer/BOOM Esports/Shiro.png"
             ]
           }
         ]
