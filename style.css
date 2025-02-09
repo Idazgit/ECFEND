@@ -11,6 +11,25 @@ body {
   padding: 10px;
   background-color: #f9f9f9;
 }
+.menuBurger {
+  display: flex;
+  justify-content: right;
+  width: 85%;
+  font-size: 2.2rem;
+}
+.menu-container {
+  position: absolute;
+  right: 0;
+  background-color: #007bff;
+  padding: 1rem;
+  font-size: 1.5rem;
+  border-radius: 10px;
+}
+
+.home {
+  text-decoration: none;
+  color: black;
+}
 
 .nav {
   display: flex;
@@ -175,7 +194,9 @@ main {
   body {
     padding: 20px;
   }
-
+  .menuBurger {
+    display: none;
+  }
   .modal-content {
     width: 50%;
     max-width: 800px;
