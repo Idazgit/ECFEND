@@ -1,3 +1,4 @@
+require("dotenv").config();
 const http = require("http");
 const fs = require("fs");
 const path = require("path");
@@ -52,24 +53,33 @@ const server = http.createServer((req, res) => {
   if (req.url.startsWith("/img/")) {
     // Pour les images, chercher directement dans le dossier img à la racine
     filePath = path.join(__dirname, "..", req.url);
-    console.log(req.url, "hello");
   } else {
     // Pour les autres fichiers statiques, chercher dans public
     filePath = path.join(__dirname, "..", "public", req.url);
   }
 
   const extname = path.extname(filePath);
-  console.log(`Tentative d'accès au fichier : ${filePath}`);
-  console.log(`Extension détectée : ${extname}`);
-
   const contentType = MIME_TYPES[extname] || "application/octet-stream";
 
   fs.readFile(filePath, (error, content) => {
     if (error) {
       if (error.code === "ENOENT") {
         console.error(`Fichier non trouvé : ${filePath}`);
-        res.writeHead(404);
-        res.end("Fichier non trouvé");
+
+        // Charger la page 404
+        const error404Path = path.join(__dirname, "..", "public", "404.html");
+        fs.readFile(error404Path, (err404, content404) => {
+          if (err404) {
+            console.error(
+              `Erreur lors du chargement de la page 404 : ${err404.message}`
+            );
+            res.writeHead(500);
+            res.end("Erreur interne du serveur");
+          } else {
+            res.writeHead(404, { "Content-Type": "text/html" });
+            res.end(content404);
+          }
+        });
       } else {
         console.error(`Erreur lors de la lecture du fichier : ${error}`);
         res.writeHead(500);
@@ -87,7 +97,7 @@ const server = http.createServer((req, res) => {
   });
 });
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORTSERV || 3000; // Port par défaut si non défini dans .env
 server.listen(PORT, () => {
   console.log(`Serveur démarré sur http://localhost:${PORT}`);
 });

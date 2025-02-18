@@ -1,8 +1,7 @@
+require("dotenv").config();
 const http = require("http");
 const fs = require("fs");
 const path = require("path");
-
-const PORT = 4000; // Port de l'API
 
 // Fonction pour gérer les requêtes
 const server = http.createServer((req, res) => {
@@ -37,7 +36,7 @@ const server = http.createServer((req, res) => {
   res.writeHead(404, { "Content-Type": "application/json" });
   res.end(JSON.stringify({ error: "Route non trouvée" }));
 });
-
+const PORT = process.env.PORTAPI; // Port de l'API
 // Lancement du serveur
 server.listen(PORT, () => {
   console.log(`API démarrée sur http://localhost:${PORT}`);
